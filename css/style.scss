@@ -1,0 +1,178 @@
+* {
+  
+ box-sizing: 0;
+ padding: 0   ;
+ margin: 0  ;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+ Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.spanFrase {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+header {
+    display:flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+   
+
+    img{
+        width: 15rem;
+    }
+}
+
+.apresentacao {
+  
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: url(/img/backgroundApresentacao.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+
+  .textoApresentacao {
+    margin: 2rem;
+  p{
+    font-weight: bolder;
+    
+  }
+}
+
+  img {
+    width: 24rem;
+    border-radius: 10px;
+    border: 5px;
+    border-radius: 50%;
+   
+    }
+
+}
+
+.checkPointI_programacaoImperativa {
+.tituloCheck {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color:red;
+}
+}
+
+
+.microondasDiv{
+display: flex;
+align-items: center;
+justify-content: center;
+
+.titulotimer {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.timer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(197, 194, 194);
+    color: green;
+    border-radius: 20px;
+    
+    h2 {
+        padding: 30px;
+    }
+}
+
+img{
+ 
+width: 24rem;
+}
+
+}
+.menu{
+background-color: orange;
+text-align: center;
+font-size: 32px;
+color:white;
+
+h4{
+    padding-top: 2rem;
+}
+
+.botoes {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: orange;
+     
+
+
+    img {
+        width: 7.5rem;
+        height: 5rem;
+        border-radius: 10px;
+        border: 5px;
+        cursor: pointer;
+        }
+
+        .opcao {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+        }
+
+        .opcao:hover{
+            transform: scale(1.20);
+            transition: 2s;
+            color:black;
+          
+            
+        
+         
+        }
+    }
+}
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color:  rgb(254,247,210);
+      
+       img {
+        gap: 20px;
+        border-radius: 4px;
+        width: 90px;
+      }
+      
+      .identificacaoDev{
+        padding-top: 2rem;
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+      }
+      
+      .links {
+        margin-top: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+      
+      }
+    }
+
+        
+  
